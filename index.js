@@ -8,8 +8,8 @@ const SELECT_ALL_VIEW_QUERY = "SELECT * FROM store";
 const connectdb = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "amit",
-  database: "minute_server"
+  password: "your_database_password",
+  database: "your_own_database"
 });
 
 // connectdb.connect(err => {
